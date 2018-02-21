@@ -1,0 +1,250 @@
+
+.container{
+	background-color: black;
+	position: relative;
+
+}
+.big{
+	font-family: 'Alegreya Sans', sans-serif;
+	text-align: center;
+	font-size: 60px;
+	color:white;
+	
+}
+
+.small{
+	font-family: 'Alegreya', serif;
+	text-align: center;
+	font-size: 20px;
+    color:white;
+
+}
+
+
+.butt1{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 15px;
+	color:white;
+	float: right;
+	right: 120px;
+	top: 5px;
+	position: absolute;
+}
+
+@media screen and (max-width:600px){
+	.butt1{
+		right:26px;
+		top:0;
+	}
+}
+.butt2{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 15px;
+	color:white;
+	float: right;
+	right: 30px;
+	top: 0px;
+	position: absolute;
+
+}
+@media screen and (max-width:600px){
+	.butt2{
+		
+		top:22px;
+	}
+}
+
+
+.info1{
+	font-family: 'Mukta Mahee', sans-serif;
+	font-size: 15px;
+	background-color: white;
+	color:black;
+	float: left;
+	left:30px;
+	top:5px;
+	position: absolute;
+}
+
+.info2{
+	font-family: 'Mukta Mahee', sans-serif;
+	font-size: 15px;
+	background-color: white;
+	color:black;
+	float: left;
+	left:30px;
+	top:30px;
+	position: absolute;
+}
+
+
+
+
+
+.left{
+	text-align: left;
+	font-family: 'Alegreya Sans', sans-serif;
+	background-color: white;
+	color:black;
+	width:50%;
+	float:left;
+	font-size: 28px;
+	position: relative;
+	display: block;
+	left:50px;
+	
+}
+
+@media screen and (max-width:600px){
+.left{
+	
+	width:100%;
+    height:100%;
+   
+	
+}
+}
+
+.drinks{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 18px;
+	word-spacing: 30px;
+	list-style-type: square;
+	line-height: 2.8em;
+	width: 25%;
+	position: absolute;
+	top:50px;
+	width: 50%;
+}
+
+
+.pricei{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 18px;
+    float: left;
+    display: inline-block;
+	line-height: 2.8em;
+	list-style: none;
+	width: 25%;
+	position: absolute;
+	top:50px;
+	width: 50%;
+	
+}
+
+@media screen and (max-width:600px){
+.pricei{
+	text-align: center;
+	
+}
+}
+.right{
+	text-align: right;
+	font-family: 'Alegreya Sans', sans-serif;
+	color:black;
+	width:50%;
+	float:right;
+	font-size: 28px;
+	position: relative;
+	right: 50px;
+	
+	
+}
+
+@media screen and (max-width:600px){
+.right{
+    width:100%;
+    height:100%;
+	margin-top: 750px;
+	
+}	
+}
+
+
+
+   
+.snacks{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 18px;
+	word-spacing: 30px;
+	
+	line-height: 2.8em;
+	position: absolute;
+	top:50px;
+	width: 50%;
+	right:150px;
+	list-style: none;
+	color:black;
+
+}
+
+
+.priceii{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 18px;
+    float: right;
+    display: inline-block;
+	line-height: 2.8em;
+	list-style: none;
+     position: absolute;
+	top:50px;
+	width: 50%;
+	right: 0;
+	list-style-type: square;
+	direction: rtl;
+	color:black;
+	
+}
+
+.teas{
+	text-align: right;
+	font-family: 'Alegreya Sans', sans-serif;
+	color:black;
+	float:right;
+	top:480px;
+	font-size: 28px;
+	position: absolute;
+	right: 0px;
+
+}
+.hot{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 18px;
+	line-height: 2.8em;
+	word-spacing: 30px;
+	position: absolute;
+	top: 530px;
+	right:150px;
+	list-style: none;
+	color:black;
+
+}
+.priceiii{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 18px;
+    float: right;
+	line-height: 2.8em;
+    position: absolute;
+	top: 530px;
+	width: 50%;
+	right: 0;
+	list-style-type: square;
+	direction: rtl;
+	color:black;
+}
+.container2{
+	background-color: black;
+	bottom: 0;
+	top: 1200px;
+	position: absolute;
+	width: 100%;
+	height: 50px;
+}
+.law{
+	font-family: 'Mukta Mahee', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	top: 50%;
+
+}

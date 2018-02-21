@@ -1,0 +1,58 @@
+html { 
+  background: url(../img/back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container{
+	position: relative;
+}
+
+.left{
+	 position: absolute;
+    top: 8px;
+    left: 58px;font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+     font-family: 'Kavivanar', cursive;
+    font-size: 50px;
+}
+.right{
+	position: absolute;
+    top: 8px;
+    right: 58px;
+    font-family: 'Poppins', sans-serif;
+     font-family: 'Kavivanar', cursive;
+    font-size: 50px;
+
+}
+
+.left1{
+	position: absolute;
+    top: 88px;
+    left: 58px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+     font-family: 'Kavivanar', cursive;
+    font-size: 20px;
+}
+.right1{
+	position: absolute;
+    top: 88px;
+    right: 58px;
+    font-family: 'Poppins', sans-serif;
+     font-family: 'Kavivanar', cursive;
+    font-size: 20px;
+  
+
+}
+
+
+.one{
+	position: absolute;
+	 top: 500px;
+    left: 58px;
+    width:20%;
+
+}
