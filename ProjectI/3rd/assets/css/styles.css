@@ -1,0 +1,935 @@
+html { 
+  background: url(../img/back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container{
+	position: relative;
+}
+
+.left{
+	position: absolute;
+    top: 8px;
+    left: 158px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Kavivanar', cursive;
+    font-size: 50px;
+    font-variant: small-caps;
+}
+
+.right{
+	position: absolute;
+    top: 8px;
+    right: 158px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Kavivanar', cursive;
+    font-size: 50px;
+    font-variant: small-caps;
+
+}
+
+.a{
+	position: absolute;
+	 top: 300px;
+    left: 300px;
+    width:8%;
+
+}
+
+.onetext{
+  color:black;
+  position: absolute;
+  top: 500px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.b{
+  position: absolute;
+  top: 350px;
+  left: 430px;
+  width:8%;
+}
+  .hide2{
+display: none;
+  }
+.twotext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.c{
+  position: absolute;
+  top: 430px;
+  left: 530px;
+  width:5%;
+}
+
+.threetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.d{
+  position: absolute;
+  top: 550px;
+  left: 570px;
+  width:5%;
+}
+  
+
+.fourtext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.e{
+  position: absolute;
+  top: 650px;
+  left: 520px;
+  width:6%;
+}
+  
+.fivetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.f{
+  position: absolute;
+  top: 740px;
+  left: 440px;
+  width:6%;
+ 
+}
+
+.sixtext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.g{
+  position: absolute;
+  top: 800px;
+  left: 300px;
+  width:6%;
+ 
+}
+  
+
+.hide7{
+display: none;
+  }
+
+.seventext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.h{
+  position: absolute;
+  top: 740px;
+  left: 150px;
+  width:6%;
+ 
+}
+  
+
+.hide8{
+display: none;
+  }
+
+.eighttext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.i{
+  position: absolute;
+  top: 650px;
+  left: 75px;
+  width:6%;
+ 
+}
+  
+
+.hide9{
+display: none;
+  }
+
+.ninetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.j{
+  position: absolute;
+  top: 560px;
+  left: 35px;
+  width:5%;
+ 
+}
+
+.tentext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.k{
+  position: absolute;
+  top: 430px;
+  left: 50px;
+  width:5%;
+ 
+}
+  
+
+.eleventext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.l{
+  position: absolute;
+  top: 350px;
+  left: 163px;
+  width:5%;
+ 
+}
+  
+
+.twelvetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.e1{
+	position: absolute;
+	top: 300px;
+    right: 300px;
+    width:3%;
+
+}
+
+.onetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.f1{
+  position: absolute;
+  top: 350px;
+  right: 430px;
+  width:3%;
+}
+
+.twotext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.g1{
+  position: absolute;
+  top: 430px;
+  right: 530px;
+  width:3%;
+}
+
+.threetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.h1{
+  position: absolute;
+  top: 550px;
+  right: 570px;
+  width:3%;
+}
+
+.fourtext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.i1{
+  position: absolute;
+  top: 650px;
+  right: 520px;
+  width:3%;
+}
+
+.fivetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.j1{
+  position: absolute;
+  top: 740px;
+  right: 440px;
+  width:3%;
+ 
+}
+.sixtext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.k1{
+  position: absolute;
+  top: 800px;
+  right: 300px;
+  width:3%;
+ 
+}
+
+.seventext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.l1{
+  position: absolute;
+  top: 740px;
+  right: 150px;
+  width:3%;
+ 
+}
+
+.eighttext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.a1{
+  position: absolute;
+  top: 650px;
+  right: 75px;
+  width:3%;
+ 
+}
+
+.ninetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.b1{
+  position: absolute;
+  top: 560px;
+  right: 35px;
+  width:3%;
+ 
+}
+
+.tentext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+.c1{
+  position: absolute;
+  top: 430px;
+  right: 50px;
+  width:3%;
+ 
+}
+  
+.eleventext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.d1{
+  position: absolute;
+  top: 350px;
+  right: 163px;
+  width:3%;
+ 
+}
+  
+.one{
+  position: absolute;
+  top: 500px;
+  left:300px;
+
+}
+
+.two{
+  position: absolute;
+  top: 500px;
+  right:300px;
+
+}
+.three{
+  position: absolute;
+  top: 500px;
+  left:300px;
+
+}
+.four{
+  position: absolute;
+  top: 500px;
+  right:300px;
+
+}
+.five{
+  position: absolute;
+  top: 500px;
+  left:300px;
+
+}
+.six{
+  position: absolute;
+  top: 500px;
+  right:300px;
+}
+.seven{
+  position: absolute;
+  top: 500px;
+  left:300px;
+
+}
+
+.eight{
+  position: absolute;
+  top: 500px;
+  right:300px;
+}
+
+.nine{
+  position: absolute;
+  top: 500px;
+  left:300px;
+
+}
+.ten{
+  position: absolute;
+  top: 500px;
+  right:300px;
+}
+.eleven{
+  position: absolute;
+  top: 500px;
+  left:300px;
+}
+.twelve{
+  position: absolute;
+  top: 500px;
+  right:300px;
+}
+.thirteen{
+  position: absolute;
+  top: 500px;
+  left:300px;
+}
+.fourteen{
+  position: absolute;
+  top: 500px;
+  right:300px;
+}
+.fifteen{
+  position: absolute;
+  top: 500px;
+  left:300px;
+}
+.sixteen{
+  position: absolute;
+  top: 500px;
+  right:300px;
+}
+.seventeen{
+  position: absolute;
+  top: 500px;
+  left:300px;
+}
+
+.eighteen{
+  position: absolute;
+  top: 500px;
+  right:300px;
+}
+.nineteen{
+  position: absolute;
+  top: 500px;
+  left:300px;
+}
+.twenty{
+  position: absolute;
+  top: 500px;
+  right:300px;
+}
+.twentyone{
+  position: absolute;
+  top: 500px;
+  left:300px;
+}
+.twentytwo{
+  position: absolute;
+  top: 500px;
+  right:300px;
+}
+
+.twentythree{
+  position: absolute;
+  top: 500px;
+  left:300px;
+}
+.twentyfour{
+  position: absolute;
+  top: 500px;
+  right:300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ .hide1{
+ 	display: none;
+ }
+.hide2{
+ 	display: none;
+ }
+.hide3{
+ 	display: none;
+ }
+ .hide4{
+ 	display: none;
+ }
+ .hide5{
+ 	display: none;
+ }
+ .hide6{
+ 	display: none;
+ }
+.hide7{
+ 	display: none;
+ }
+ .hide8{
+ 	display: none;
+ }
+.hide9{
+ 	display: none;
+ }
+ .hide10{
+ 	display: none;
+ }
+ .hide11{
+ 	display: none;
+ }
+ .hide12{
+ 	display: none;
+ }
+ .hide13{
+ 	display: none;
+ }
+ .hide14{
+ 	display: none;
+ }
+ .hide15{
+ 	display: none;
+ }
+ .hide16{
+ 	display: none;
+ }
+ .hide17{
+ 	display: none;
+ }
+.hide18{
+ 	display: none;
+ }
+.hide19{
+ 	display: none;
+ }
+
+.hide20{
+ 	display: none;
+ }
+ 
+ .hide21{
+ 	display: none;
+ }
+ .hide22{
+ 	display: none;
+ }
+ .hide23{
+ 	display: none;
+ }
+ 
+ .hide24{
+ 	display: none;
+ }
+
+
+.q{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.q1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.w{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.w1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
+.z{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.z1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.x{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.x1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.v{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.v1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.n{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.n1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.m{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.m1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.y{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.y1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.t{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.t1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.o{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.o1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.p{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.p1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.r{
+	position: absolute;
+	top:-400px;
+	left:350px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+.r1{
+	position: absolute;
+	top:-400px;
+	left:-380px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

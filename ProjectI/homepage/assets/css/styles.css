@@ -1,14 +1,26 @@
+body {
+  background: url('../img/constellation.jpg') no-repeat 50% 50% fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body:hover{
+  background: url('../img/back.jpg') no-repeat 50% 50% fixed; 
+}
+
 .container{
 	position: relative;
 }
 .center{
 	position: absolute;
-    bottom: 20px;
-    right: 20px;
     background-color: black;
     font-size: 30px;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Acme', sans-serif;
+    top:500px;
+    left:500px;
 }

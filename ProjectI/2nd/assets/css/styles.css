@@ -1,4 +1,4 @@
-html { 
+ html { 
   background: url(../img/back.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -6,53 +6,640 @@ html {
   background-size: cover;
 }
 
+
 .container{
 	position: relative;
+
+
 }
 
 .left{
 	 position: absolute;
     top: 8px;
-    left: 58px;font-family: 'Poppins', sans-serif;
+    left: 158px;font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
      font-family: 'Kavivanar', cursive;
     font-size: 50px;
+    font-variant: small-caps;
+  
 }
 .right{
 	position: absolute;
     top: 8px;
-    right: 58px;
+    right: 158px;
     font-family: 'Poppins', sans-serif;
      font-family: 'Kavivanar', cursive;
     font-size: 50px;
+    font-variant: small-caps;
 
 }
 
 .left1{
 	position: absolute;
-    top: 88px;
+    top: 120px;
     left: 58px;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Poppins', sans-serif;
-     font-family: 'Kavivanar', cursive;
-    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    
 }
 .right1{
 	position: absolute;
-    top: 88px;
+    top: 120px;
     right: 58px;
-    font-family: 'Poppins', sans-serif;
-     font-family: 'Kavivanar', cursive;
-    font-size: 20px;
-  
-
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
 }
 
+.button{
+  position: absolute;
+  left:650px;
+  top:1130px;
+}
+
+.explain{
+  position: absolute;
+  left:690px;
+  top:1180px;
+  color:black;
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+
+}
 
 .one{
 	position: absolute;
 	 top: 500px;
-    left: 58px;
-    width:20%;
+    left: 290px;
+    width:8%;
 
+}
+.hide{
+  display: none;
+}
+.onetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.two{
+  position: absolute;
+  top: 550px;
+  left: 430px;
+  width:8%;
+}
+  .hide2{
+display: none;
+  }
+.twotext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.three{
+  position: absolute;
+  top: 630px;
+  left: 530px;
+  width:5%;
+}
+  
+
+.hide3{
+display: none;
+  }
+
+.threetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.four{
+  position: absolute;
+  top: 750px;
+  left: 570px;
+  width:5%;
+}
+  
+
+.hide4{
+display: none;
+  }
+
+.fourtext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.five{
+  position: absolute;
+  top: 850px;
+  left: 520px;
+  width:6%;
+}
+  
+
+.hide5{
+display: none;
+  }
+
+.fivetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.six{
+  position: absolute;
+  top: 940px;
+  left: 440px;
+  width:6%;
+ 
+}
+  
+
+.hide6{
+display: none;
+  }
+
+.sixtext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.seven{
+  position: absolute;
+  top: 1000px;
+  left: 300px;
+  width:6%;
+ 
+}
+  
+
+.hide7{
+display: none;
+  }
+
+.seventext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:140px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.eight{
+  position: absolute;
+  top: 940px;
+  left: 150px;
+  width:6%;
+ 
+}
+  
+
+.hide8{
+display: none;
+  }
+
+.eighttext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.nine{
+  position: absolute;
+  top: 850px;
+  left: 75px;
+  width:6%;
+ 
+}
+  
+
+.hide9{
+display: none;
+  }
+
+.ninetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:130px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.ten{
+  position: absolute;
+  top: 760px;
+  left: 35px;
+  width:5%;
+ 
+}
+  
+
+.hide10{
+display: none;
+  }
+
+.tentext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:120px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.eleven{
+  position: absolute;
+  top: 630px;
+  left: 50px;
+  width:5%;
+ 
+}
+  
+
+.hide11{
+display: none;
+  }
+
+.eleventext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.twelve{
+  position: absolute;
+  top: 550px;
+  left: 163px;
+  width:5%;
+ 
+}
+  
+
+.hide12{
+display: none;
+  }
+
+.twelvetext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  left:160px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.c1{
+  position: absolute;
+  top: 500px;
+  right: 300px;
+  width:3%;
+ 
+}
+  
+
+.hi1{
+display: none;
+  }
+
+.atext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:120px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.c2{
+  position: absolute;
+  top: 550px;
+ right: 160px;
+  width:3%;
+ 
+}
+  
+
+.hi2{
+display: none;
+  }
+
+.btext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:140px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.c3{
+  position: absolute;
+  top: 630px;
+  right:50px; 
+  width:3%;
+ 
+}
+  
+
+.hi3{
+display: none;
+  }
+
+.ctext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:140px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.c4{
+  position: absolute;
+  top: 750px;
+  right:35px; 
+  width:3%;
+ 
+}
+  
+
+.hi4{
+display: none;
+  }
+
+.dtext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:140px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.c5{
+  position: absolute;
+  top: 850px;
+  right:75px; 
+  width:3%;
+ 
+}
+  
+
+.hi5{
+display: none;
+  }
+
+.etext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:110px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.c6{
+  position: absolute;
+  top: 940px;
+  right:160px; 
+  width:3%;
+ 
+}
+  
+
+.hi6{
+display: none;
+  }
+
+.ftext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:120px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.c7{
+  position: absolute;
+  top: 1000px;
+  right:300px; 
+  width:3%;
+ 
+}
+  
+
+.hi7{
+display: none;
+  }
+
+.gtext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:100px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.c8{
+  position: absolute;
+  top: 940px;
+  right:400px; 
+  width:4%;
+ 
+}
+  
+
+.hi8{
+display: none;
+  }
+
+.htext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:100px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.c9{
+  position: absolute;
+  top: 850px;
+  right:500px; 
+  width:3%;
+ 
+}
+  
+
+.hi9{
+display: none;
+  }
+
+.itext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:140px;
+  text-align: center;
+ font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+.c10{
+  position: absolute;
+  top: 750px;
+  right:570px; 
+  width:4%;
+ 
+}
+  
+
+.hi10{
+display: none;
+  }
+
+.jtext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:120px;
+  text-align: center;
+ font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+
+
+.c11{
+  position: absolute;
+  top: 630px;
+  right:530px; 
+  width:4%;
+ 
+}
+  
+
+.hi11{
+display: none;
+  }
+
+.ktext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:120px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+.c12{
+  position: absolute;
+  top: 550px;
+  right:430px; 
+  width:2.5%;
+ 
+}
+  
+
+.hi12{
+display: none;
+  }
+
+.ltext{
+  color:black;
+  position: absolute;
+  top: 700px;
+  right:140px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
 }
