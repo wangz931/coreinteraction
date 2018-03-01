@@ -193,14 +193,6 @@ $('.l1').hover(
             
 });
 
-$('.a').click(
-	function() {
-		$('.q.butt1').removeClass('hi1');
-	}, function() {
-		$('.q.butt1').addClass('hi1');
-            
-});
-
 
 
 
