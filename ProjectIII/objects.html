@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p id="demo"></p>
+</body>
+</html>
+<script type="text/javascript">
+obj = {
+	"white":[
+	{"twizzlers", 
+	"smell of lilies",
+	"car radio",
+	"afghan",
+	"taco bell",
+	"soda at sports sodium",
+	"Feather filled quilt",
+	"magnifying glass",
+	"korean pop music",
+	"the first snow of winter",
+	"the lights of the stations",
+	"A really good dessert that’s just too big for one person"},
+
+
+
+	"black":
+	{"bourbon"}
+	{"Tuesday by ILOVEMAKOANNEN"}
+	{"doorbell"}
+	{"framed 10 commandents"}
+    {"number2"}
+    {"joint"}
+    {"car bumper"}
+    {"polaroids"}
+    {"snoopy"}
+    {"axe"}
+    {"colour turquoise"}
+    {"expensive dress when windowshopping"},
+
+
+    "red":
+    {"keychain"}
+    {"arsenal jersey"}
+    {"salad plate"}
+    {"old clothes"}
+    {"black dildo"}
+    {"tide pot"}
+    {"scent of Elnett hairspray"}
+    {"salvation Army band"}
+    {"smell of sweetshops"}
+    {"lipstick in Cherry Red"}
+    {"80s freestyle"}
+    {"soft scrambled egg"}
+
+};
+
+dbParam = JSON.stringify(obj);
+xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        myObj = JSON.parse(this.responseText);
+        txt += "<table border='1'>"
+        for (x in myObj) {
+            txt += "<tr><td>" + myObj[x].name + "</td></tr>";
+        }
+        txt += "</table>" 
+        document.getElementById("demo").innerHTML = txt;
+    }
+}
+xmlhttp.open("POST", "json_demo_db_post.php", true);
+xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+xmlhttp.send("x=" + dbParam);
+
+
+</script>
