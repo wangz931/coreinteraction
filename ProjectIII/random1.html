@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+
+<style type="text/css">
+img{
+	width: 10%;
+}
+
+body, html{
+	background-color: red;
+}
+
+.random{
+	width: 100%;
+	height:60%;
+	position: absolute;
+	left:2%;
+	
+}
+
+.hide{
+	display: none;
+}
+
+.frame:hover{
+	webkit-filter: blur(4px);
+	filter: blur(4px);
+}
+
+
+</style>
+</head>
+
+
+<body onload="init();">
+<div style="position:absolute" class ="random">
+<img button="one" class="lightbox frame hide" src="assets/img/framei.jpg">
+<img class="frame two" src="assets/img/framei.jpg">
+<img class="frame three" src="assets/img/framei.jpg">
+<img class="frame four" src="assets/img/framei.jpg">
+<img class="frame five" src="assets/img/framei.jpg">
+<img class="frame six" src="assets/img/framei.jpg">
+<img class="frame seven" src="assets/img/framei.jpg">
+<img class="a" src="assets/img/framei.jpg">
+<img class="frame eight" src="assets/img/framei.jpg">
+<img class="frame nine" src="assets/img/framei.jpg">
+<img class="frame ten" src="assets/img/framei.jpg">
+<img class="frame eleven" src="assets/img/framei.jpg">
+<img class="frame twelve" src="assets/img/framei.jpg">
+<img class="frame thirteen" src="assets/img/framei.jpg">
+<img class="frame fourteen" src="assets/img/framei.jpg">
+<img class="frame fifteen" src="assets/img/framei.jpg">
+<img class="frame sixteen" src="assets/img/framei.jpg">
+<img class="frame seventeen" src="assets/img/framei.jpg">
+
+
+</div>
+
+</body>
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+function init() {
+var xmin = 50;
+var xmax = 300;
+var ymin = 0;
+var ymax = 500;
+
+
+ 
+
+
+
+var frames = document.getElementsByClassName("frame")
+
+
+
+for (var i = 0; i < frames.length; i++) {
+	
+
+	var width = Math.floor((Math.random()*xmax)+xmin);
+	var height = Math.floor((Math.random()*ymax)+ymin);
+
+	console.log(frames[i], width, height)
+
+	frames[i].style.width = width + "px";
+	//frames[i].style.height = height + "px";
+
+}
+}
+
+
+
+
+
+</script>
+</html>

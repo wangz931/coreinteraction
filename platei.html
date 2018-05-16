@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<style type="text/css">
+
+
+body, html{
+  background-color: grey;
+
+}
+@media only screen and (min-width: 480px) {
+   
+    body, html{
+        width: 100%;
+    }
+}
+
+
+.mom{
+  width: 100%;
+  position: absolute;
+  left:5px;
+}
+
+  
+.box {
+  width:170px;
+  height:170px;
+  border:3px solid grey;
+  display: inline-block;
+  background-color:red;
+  left: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.boxii {
+  width:170px;
+  height:170px;
+  border:3px solid grey;
+  right: 38px;
+  top:770px;
+  background-color:red;
+  cursor: pointer;
+  position: absolute;
+}
+
+
+.together{
+  width: 916px;
+  height:552px;
+  position: absolute;
+  top: 210px;
+  left: 398px;
+}
+
+
+
+.frame{
+  width: 18%;
+  position: absolute;
+  left: 40.3%;
+  top:30px;
+  
+}
+
+
+
+
+.grey{
+  width: 940px;
+  height:550px;
+  position: relative;
+  top: -754px;
+  left: 208px;
+
+}
+
+
+
+.hide{
+  display: none;
+}
+
+
+
+.white{
+        animation:her 3s;
+        -moz-animation:her 3s infinite; 
+        -webkit-animation:her  3s infinite;
+      }
+      
+        @-webkit-keyframes her 
+    {
+   0%   {background:white;}
+    50%  {background:red;}
+    70%  {background:white;}
+    100%   {background:red;}
+}
+
+.beige{
+        animation:his 3s;
+        -moz-animation:his 3s infinite; 
+        -webkit-animation:his  3s infinite;
+      }
+      
+        @-webkit-keyframes his 
+    {
+   0%   {background:red;}
+    50%  {background:beige;}
+    70%  {background:red;}
+    100%   {background:beige;}
+}
+
+
+.black{
+        animation:my 3s;
+        -moz-animation:my 3s infinite; 
+        -webkit-animation:my 3s infinite;
+      }
+      
+        @-webkit-keyframes my 
+    {
+   0%   {background:red;}
+    50%  {background:black;}
+    70%  {background:red;}
+    100%   {background:black;}
+    }
+
+
+
+.font{
+ position: absolute;
+ top:40%;
+ left: 30%;
+ color: white;
+}
+
+.fontii{
+  position: absolute;
+  top:1250px;
+  left:400px;
+  text-align: center;
+  color: white;
+}
+
+
+</style>
+</head>
+<body onload="init();">
+
+<div class="mom">
+
+
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<a href="../coreinteraction/door.html"><div class="box white"></div></a>
+
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+
+
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<a href="../coreinteraction/ProjectIII/blank.html"><div class="box beige"></div></a>
+
+<div class="box"></div>
+<a href="../coreinteraction/ProjectIII/sad.html"><div class="box black"></div></a>
+<div class="boxii"><div class="font">Story</div></div>
+
+<div class="box"></div>
+</div>
+
+
+
+<div class="together">
+<img class="frame" src="ProjectIII/assets/img/frameplate.jpg">
+</div>
+
+
+
+<div class="grey hide">
+<div class="fontii">
+My great grandmother used to serve dinner every Friday </br>and she would use these intricately detailed salad plates for the first course. </br>I can still visualize the plates</br> and the cutlery we used and how the salad plate looked with the salad fork.
+
+</body>
+<script type="text/javascript">
+
+
+$('.boxii').click(
+  function() {
+    $('.grey').removeClass('hide');
+    $('.together').css('background-color', '#F93737');
+  });
+
+
+
+</script>
+</html>

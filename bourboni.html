@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<style type="text/css">
+
+
+body, html{
+  background-color: grey;
+
+}
+@media only screen and (min-width: 480px) {
+   
+    body, html{
+        width: 100%;
+    }
+}
+
+
+.mom{
+  width: 100%;
+  position: absolute;
+  left:5px;
+}
+
+  
+.box {
+  width:170px;
+  height:170px;
+  border:3px solid grey;
+  display: inline-block;
+  background-color:black;
+  left: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.boxii {
+  width:170px;
+  height:170px;
+  border:3px solid grey;
+  right: 38px;
+  top:770px;
+  background-color:black;
+  cursor: pointer;
+  position: absolute;
+}
+
+
+.together{
+  width: 916px;
+  height:552px;
+  position: absolute;
+  top: 210px;
+  left: 398px;
+}
+
+
+
+.frame{
+  width: 18%;
+  position: absolute;
+  left: 40.3%;
+  top:30px;
+  
+}
+
+
+
+
+.grey{
+  width: 940px;
+  height:550px;
+  position: relative;
+  top: -754px;
+  left: 208px;
+
+}
+
+
+
+.hide{
+  display: none;
+}
+
+
+
+.white{
+        animation:her 3s;
+        -moz-animation:her 3s infinite; 
+        -webkit-animation:her  3s infinite;
+      }
+      
+        @-webkit-keyframes her 
+    {
+   0%   {background:white;}
+    50%  {background:black;}
+    70%  {background:white;}
+    100%   {background:black;}
+}
+
+.beige{
+        animation:his 3s;
+        -moz-animation:his 3s infinite; 
+        -webkit-animation:his  3s infinite;
+      }
+      
+        @-webkit-keyframes his 
+    {
+   0%   {background:black;}
+    50%  {background:beige;}
+    70%  {background:black;}
+    100%   {background:beige;}
+}
+
+
+.red{
+        animation:my 3s;
+        -moz-animation:my 3s infinite; 
+        -webkit-animation:my 3s infinite;
+      }
+      
+        @-webkit-keyframes my 
+    {
+   0%   {background:red;}
+    50%  {background:black;}
+    70%  {background:red;}
+    100%   {background:black;}
+    }
+
+
+
+.font{
+ position: absolute;
+ top:40%;
+ left: 30%;
+ color: white;
+}
+
+.fontii{
+  position: absolute;
+  top:1250px;
+  left:400px;
+  text-align: center;
+  color: white;
+}
+
+
+</style>
+</head>
+<body onload="init();">
+
+<div class="mom">
+
+
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<a href="../coreinteraction/door.html"><div class="box white"></div></a>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<a href="../coreinteraction/ProjectIII/blank.html"><div class="box beige"></div></a>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+
+<a href="../coreinteraction/ProjectIII/happy.html"><div class="box red"></div></a>
+<div class="boxii"><div class="font">Story</div></div>
+
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</div>
+
+
+
+<div class="together">
+<img class="frame" src="ProjectIII/assets/img/framebourbon.jpg">
+</div>
+
+
+
+<div class="grey hide">
+<div class="fontii">
+The first time I understood what it is like to be the bitch in a relationship.</br>
+He was the best fucking sex in all my lives.</br>And he also had a gf he didn't tell me.</br>
+Till I find out.</br>
+We'd drink bourbon before he'd come up to me and grab me and kiss me hard.</br>
+The taste of his mouth. </br>
+</body>
+<script type="text/javascript">
+
+
+$('.boxii').click(
+  function() {
+    $('.grey').removeClass('hide');
+    $('.together').css('background-color', '#191919');
+  });
+
+
+
+</script>
+</html>

@@ -1,22 +1,4 @@
 
- var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("one");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 1000); 
-}
-
-
-
-
 
 $('.h').hover(
 	function() {
@@ -82,13 +64,7 @@ $('.h12').hover(
 });
 
 
-$('.h14').hover(
-	function() {
-		$('.m7').removeClass('h15');
-	}, function() {
-		$('.m7').addClass('h15');
-            
-});
+
 
 
 $('.h16').hover(
@@ -99,13 +75,7 @@ $('.h16').hover(
             
 });
 
-$('.h18').hover(
-	function() {
-		$('.m9').removeClass('h19');
-	}, function() {
-		$('.m9').addClass('h19');
-            
-});
+
 
 
 $('.h20').hover(
@@ -143,6 +113,7 @@ $('.h26').hover(
             
 });
 
+
 $('.h28').hover(
 	function() {
 		$('.m14').removeClass('h29');
@@ -158,3 +129,4 @@ $('.h30').hover(
 		$('.m15').addClass('h31');
             
 });
+
