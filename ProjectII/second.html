@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="assetsII/css/styles.css">
+<link rel="shortcut icon" href="" />
+<link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+<div class="blue"><div class="headline">Jer's Day</div>
+
+</div>
+<div class="red"><img data-button="first" class="heart" src="assetsII/img/heart.png"></div>
+<div class="green"><img data-button="second" class="food" src="assetsII/img/veggie.png"></div>
+<div class="orange"><img data-button="fourth" class="talk" src="assetsII/img/meeting.png"></div>
+<div class="purple"><img data-button="fifth" class="shopping" src="assetsII/img/shop.png"></div>
+<div class="black"><img data-button="sixth" class="still" src="assetsII/img/study.png"></div>
+<div class="pink"><img data-button="third" class="move" src="assetsII/img/flex.png"></div>
+</div>
+
+<div class="one first hide1">
+<img id="number1" class="heart1" src="assetsII/img/kiss.png">
+
+   <div class="contain">
+        <div class="basket">
+        <div class="gas"></div>
+        <div class="rblock number h1"></div>
+        </div>
+    </div>
+<a href="../ProjectII/second.html" class="butt"></a>
+</div>
+
+
+
+
+<div class="two second hide2">
+                              <div class="contain">
+                                   <div class="basket">
+                                   <div class="gas2"></div>
+                                   <div class="gblock number h1"></div>
+                                   </div>
+                              </div>
+                               <a href="../ProjectII/second.html" class="butt"></a>
+<div class="nutrition">
+
+<img data-button="number2" class="n2" src="assetsII/img/meat.png">
+<img data-button="number2" class="n3" src="assetsII/img/carbo.png">
+</div>
+<img data-button="number2" class="n4" src="assetsII/img/bad.png">
+<a href="../ProjectII/second.html" class="butt"></a>
+   
+</div>
+
+<div class="three third hide3">
+
+                               <div class="contain">
+                                   <div class="basket">
+                                   <div class="gas1"></div>
+                                   <div class="bblock number h1"></div>
+                                   </div>
+                              </div>
+                              <form>
+ 
+
+                              
+<div class="parent">
+<img class="kid1 bye" data-button="number3" src="assetsII/img/move1.png" width="30%">
+<img class="kid2 hello" data-button="number3" src="assetsII/img/move2.png" width="30%">
+</div>
+<a href="../ProjectII/second.html" class="butt"></a>
+</div>
+
+
+
+<div class="four fourth hide4">
+<div class="contain">
+                                   <div class="basket">
+                                   <div class="gas4"></div>
+                                   <div class="piblock number h1"></div>
+                                   </div>
+                              </div>
+                               <a href="../ProjectII/second.html" class="butt"></a>
+<img data-button="number4" class="meeting" src="assetsII/img/mic.png">
+<a href="../ProjectII/second.html" class="butt"></a>
+</div>
+
+<div class="five fifth hide5">
+                                   <div class="contain">
+                                   <div class="basket">
+                                   <div class="gas3"></div>
+                                   <div class="pblock number h1"></div>
+                                   </div>
+                                  </div>
+<div class="bag">
+<img data-button="number5" class="sneaker" src="assetsII/img/shoe.png" width="20%">
+<img data-button="number5" class="grocery" src="assetsII/img/milk.png" width="20%">
+<img data-button="number5" class="food1"    src="assetsII/img/takeout.png" width="20%">
+<img data-button="number5" class="drinks"  src="assetsII/img/coffee.png" width="20%">
+</div>
+<a href="../ProjectII/second.html" class="butt"></a>
+</div>
+
+                            
+
+                            <div class="six sixth hide6">
+                            
+                            <div class="contain">
+                            <div class="basket">
+                            <div class="gas6"></div>
+                            <div class="wblock"></div>
+                            </div>
+                            </div>
+                            
+                            <div class="classes">
+                            <img class="c1" src="assetsII/img/art.png">
+                            <img class="c2" src="assetsII/img/math.png">
+                            <img class="c3" src="assetsII/img/physic.png">
+                            <img class="c4" src="assetsII/img/circle.png">
+                            </div>
+                            <a href="../ProjectII/second.html" class="butt"></a>
+                            </div>
+
+<script src="assetsII/js/app.js"></script>
+</body>
+<script type="text/javascript">
+  document.onkeypress = function(event){
+  var currentHeight = $(".piblock.number.h1").height()
+  var newHeight = currentHeight + 30;
+
+  var key = event.code;
+  if(key == "Equal"){
+    if(newHeight >= 290){
+    newHeight = 290;
+    alert("COMMUNICATION IS KEY!!!");
+  }
+  $(".piblock.number.h1").css({"height" : newHeight + "px"})
+
+  }
+}
+
+
+
+
+
+</script>
+</html>

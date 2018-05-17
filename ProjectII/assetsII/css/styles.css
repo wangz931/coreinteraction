@@ -1,0 +1,647 @@
+html, body{
+	margin:0;
+	width:100%;
+	height:100%;
+	background-color: #336699;
+}
+
+
+div{
+	box-sizing: border-box;
+	width:100%;
+	height:100%;
+}
+
+
+                  .contain{
+                  	position: absolute; 
+                  	height:380px;
+                  	width:100px;
+                  	right:0;
+                  }
+                  .basket{
+                  	position: relative;
+                  	display: flex;
+                  	flex-direction: column;
+                  }
+                  .gas{
+                  	fill: none;
+                  	 width: 60px;
+                  	 height: 300px; 
+                  	border-width:10px;
+                  	border-style: solid;
+                  	position: absolute;
+                     margin-top: 50px;
+                     right:90px;
+                  	
+                  }
+                  .rblock{
+                  	width:41px;
+                  	height:30px;
+                  	margin-left:-40px; 
+                  	background-color: red;
+                  	bottom:40px;
+                  	position: absolute;
+                  	
+                  }
+                                .pichi{
+                                 	display: none;
+                                 }
+                                 
+                                 .chat{
+                                 	width:248px;
+                                 	height: auto;
+                                 	margin-top: 440px;
+                                 	margin-left: 900px;
+                                    position:relative;
+                                 	z-index:9999;
+                                 }
+                                 .cang1{
+                                 	display: none;
+                                 }
+                                 .txt1{
+                                 	width: 200px;
+                                 	font-size: 10px;
+                                 	left: 948px;
+                                 	top:496px;
+                                 	position:absolute;
+                                 	z-index:9999;
+                                 	overflow: hidden;
+                                 	margin: 0 auto;
+                                 	animation: 
+                                     typing 3.8s steps(30, end),
+                                     blink-caret .85s step-end infinite;
+                                     text-overflow: ellipsis; 
+                                     white-space: nowrap;
+                                     
+                                     
+                                 }
+                                 
+                                 @keyframes typing {
+                                   from { width: 0 }
+                                   to { width: 100% }
+                                 }
+                                 
+                                 @keyframes blink-caret {
+                                   from, to { border-color: transparent }
+                                   50% { border-color: orange; }
+                                 }
+                                                    
+
+                                                    .gas2{
+                                                        fill: none;
+                                                        width: 60px;
+                                                        height: 300px; 
+                                                        border-width:10px;
+                                                        border-style: solid;
+                                                        border-color: green;
+                                                        position: absolute;
+                                                        margin-top: 50px;
+                                                        }
+                                                      .gblock{
+                                                        width:41px;
+                                                        height:30px;
+                                                        background-color: yellow;
+                                                        bottom:40px;
+                                                        position: absolute;
+                                                        margin-left: 8px;
+  
+                                                        }
+
+                                                       
+                                                            .nutrition{
+                                                            	display: inline-block;
+                                                            }
+                                                            
+                                                            .n2 
+                                                            {
+                                                              width: 17%;
+                                                              margin-top: 300px;
+                                                              margin-left:50px;
+                                                              padding-left: 400px;
+                                                              
+
+                                                            }
+                                                            .n3{
+                                                            	width: 13%;
+                                                            	margin-top: 60px;
+                                                            	margin-left:288px;
+                                                            	padding-left: 150px;
+                                                            }
+                                                            .n4
+                                                            {
+                                                              width: 10%;
+                                                              position: absolute;
+                                                              bottom: 440px;
+                                                              left:840px;
+                                                            }                                                            
+                                                                        .gas1{
+                                                                            fill: none;
+                                                                            width: 60px;
+                                                                            height: 300px; 
+                                                                            border-width:10px;
+                                                                            border-style: solid;
+                                                                            border-color: pink;
+                                                                            position: absolute;
+                                                                             margin-top: 50px;
+                                                                            right:90px;
+                                                                       
+                                                                            }
+                                                                           .bblock{
+                                                                           width:41px;
+                                                                           height:30px;
+                                                                           margin-left:-40px; 
+                                                                           background-color: black;
+                                                                           bottom:40px;
+                                                                           position: absolute;
+                                                                       }
+                                                                   
+                                                                         .hello{
+                                                                         	display: none;
+                                                                         }
+
+
+
+                                                                         .kid1{
+
+                                                                          opacity:0; 
+                                                                          margin-left: 400px;
+                                                                          margin-top: 300px;
+
+                                                                         }
+                                                                         .bye{
+                                                                          opacity: 100;
+                                                                         }
+
+                                                                         .kid2{
+                                                                          margin
+                                                                         }
+                                      
+      
+
+
+
+
+
+.headline{
+	text-align: center;
+	font-size: 50px;
+	color:gold;
+	margin-top: 50%;
+  font-family: 'Chicle', cursive; color:white;
+}
+
+
+.red{
+	width:30%;
+	height:33.3%;
+	float: left;
+	background-color: red;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.heart{
+	width:50%;
+	margin-top: 25px;
+	margin-left: 100px;
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    
+}
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+
+.pink{
+	width: 30%;
+	height: 33.3%;
+	float: left;
+	background-color: pink;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	top:33.3%;
+	position: absolute;
+}
+.black{
+	width: 30%;
+	height: 33.3%;
+	float: right;
+	background-color: beige;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	top:33.3%;
+	left:30%;
+	position: absolute;
+
+}
+
+.purple{
+	width: 30%;
+	height: 33.3%;
+	float: left;
+	background-color: purple;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	top:66.6%;
+	position: absolute;
+}
+
+.orange{
+	width: 30%;
+	height: 33.3%;
+	float: right;
+	background-color: orange;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	
+}
+
+.green{
+  width: 30%;
+  height: 33.3%;
+  float: right;
+  background-color: green;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  top:66.6%;
+  left:30%;
+  position: absolute;
+}
+
+.heart1{
+	width:30%;
+	left: 35%;
+	top: 20%;
+   position: absolute;
+}
+
+.lip{
+  width:30%;
+  top:30%;
+  right:15%;
+  position: absolute;
+
+}
+
+
+
+
+.hide1{
+	display: none;
+}
+.hide2{
+	display: none;
+}
+.hide3{
+	display: none;
+}
+.hide4{
+	display: none;
+}
+.hide5{
+	display: none;
+}
+.hide6{
+	display: none;
+}
+.move{
+	width: 55%;
+	position: absolute;
+	top:20px;
+	left: 80px;
+	 animation: swing ease-in-out 0.5s infinite alternate;
+    transform-origin: bottom -20px;
+
+}
+
+.swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    top: -10px; left: 50%;
+    z-index: 0;
+    transform: rotate(45deg);
+}
+
+.swing:before{
+    content: '';
+    position: absolute;
+    top: -14px;left: 54%;
+    z-index: 5;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+
+
+.butt{
+	background-color: #F7B518;
+  width: 6%;
+  height: 10%;
+    cursor: pointer;
+    border-radius: 50%;
+    top: 600px;
+    left:200px;
+    position: absolute;
+
+}
+                                                               .gas6{
+                                                               fill: none;
+                                                               width: 60px;
+                                                               height: 300px; 
+                                                               border-width:10px;
+                                                               border-style: solid;
+                                                               border-color: white;
+                                                               position: absolute;
+                                                                margin-top: 50px;
+                                                               right:90px;
+                                                             }
+
+                                                             
+                                                           
+                                                                
+                                                                .classes{
+                                                                  display: inline-block;
+                                                                  
+                                                                }
+                                                                                                                                
+
+                                                                .c1{
+                                                                  width: 10%;
+                                                                  position: absolute;
+                                                                  top: 200px;
+                                                                  left: 550px;
+                                                                }
+                                                                .c2{
+                                                                  width: 10%;
+                                                                  position: absolute;
+                                                                  top:200px;
+                                   
+                                                                  left:1000px;
+                                                                  
+                                                                }
+                                                                .c3{
+                                                                  width: 10%;
+                                                                  position: absolute;
+                                                                  top: 600px;
+                                                                  left: 530px;
+                                                                  
+                                                                  
+                                                                }
+                                                                .c4{
+                                                                  width: 10%;
+                                                                  position: absolute;
+                                                                  top:590px;
+                                                                  left:1000px;
+                                                      
+                                                                }
+
+
+        .wblock{
+                                               width:41px;
+                                               height:30px;
+                                               margin-left:-40px; 
+                                               background-color: beige;
+                                               bottom:40px;
+                                               position: absolute;
+                                             }
+                                            
+
+
+
+                                              
+         
+                                                .gas3{
+                                                fill: none;
+                                                width: 60px;
+                                                height: 300px; 
+                                                border-width:10px;
+                                                border-style: solid;
+                                                border-color: purple;
+                                                position: absolute;
+                                                 margin-top: 50px;
+                                                right:90px;
+                                              }
+                                                
+
+                                             .pblock{
+                                               width:41px;
+                                               height:30px;
+                                               margin-left:-40px; 
+                                               background-color: black;
+                                               bottom:40px;
+                                               position: absolute;
+                                             }
+                                            
+                                              .bag{
+                                                display: inline-block;
+                                              }
+
+                                              .sneaker{
+                                                width: 14%;
+                                                top: 200px;
+                                                left: 500px;
+                                                position: absolute;
+
+
+                                              }
+
+                                              .grocery{
+                                                width: 8%;
+                                                top: 200px;
+                                                left:1000px;
+                                                position: absolute;
+
+                                              }
+
+                                              .food1{
+                                                 width: 15%;
+                                                 top: 470px;
+                                                 left:500px;
+                                                 position: absolute;
+
+                                              }
+
+                                              .drinks{
+                                                width: 12%;
+                                                top:500px;
+                                                left:1000px;
+                                                position: absolute;
+
+                                              }
+
+
+
+
+
+
+.cardio{
+     width:35%;
+	margin-left: 450px;
+	margin-top: 15%;
+   position: absolute;
+}
+
+
+
+
+
+
+
+.talk{
+  width: 20%;
+  position: absolute;
+  top: -20px;
+  left:630px;
+	
+	-webkit-animation: zoomin 2s ;
+    animation: zoomin 2s infinite;	
+}
+
+@-webkit-keyframes zoomin {
+    100% { transform: scale(1.1); }
+}
+
+@keyframes zoomin {
+    100% { transform: scale(1.1); }
+}
+
+
+.food{
+  width: 70%;
+  left:70px;
+  position: absolute;
+  -webkit-animation: slide 1s forwards;
+    animation: slide 1s forwards infinite;  
+}
+
+@-webkit-keyframes slide {
+    100% { left: 250px; }
+}
+
+@keyframes slide {
+    100% { left: 120px; }
+}
+
+
+
+
+                                                                 .meeting{
+                                                                    width:12%;
+                                                                   margin-left: 669px;
+                                                                   margin-top: 15%;
+                                                                    position: absolute;
+                                                                 }
+                                                                 
+                                                                 
+                                                                    .gas4{
+                                                                    fill: none;
+                                                                    width: 60px;
+                                                                    height: 300px; 
+                                                                    border-width:10px;
+                                                                    border-style: solid;
+                                                                    border-color: yellow;
+                                                                    position: absolute;
+                                                                     margin-top: 50px;
+                                                                    right:90px;
+                                                                  }
+
+                                                                  .piblock{
+                                                                      width:41px;
+                                                                      height:30px;
+                                                                      left:-40px;
+                                                                      bottom: 40px;
+                                                                      background-color: pink;
+                                                                      position: absolute;
+
+                                                                     }
+                                                                 
+
+
+.laptop{
+	width:38%;
+	margin-left: 32%;
+	margin-top: 15%;
+   position: absolute;
+}
+
+
+.shopping{
+	width: 45%;
+	left:95px;
+	top:30px;
+	position: absolute;
+	animation: swing1 ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+}
+@keyframes swing1 {
+    0% { transform: rotate(50deg); }
+    100% { transform: rotate(-50deg); }
+}
+
+
+.still{
+	width: 55%;
+	left:95px;
+	top:28px;
+	position: absolute;
+	-webkit-animation: zoomout 2s ;
+    animation: zoomout 2s infinite;	
+
+}
+@-webkit-keyframes zoomout {
+    100% { transform: scale(0.8); }
+}
+
+@keyframes zoomout {
+    100% { transform: scale(0.8); }
+}
+//javascript cookies: store info
+
+
+
+.h1{
+	display: none;
+}
+
+                      .blue{
+                        width: 40%;
+                        height: 100%;
+                        float: right;
+                        background-color: #336699;
+                        box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+                        display: grid;
+                      
+                      }
+                      
+                      
+                 
