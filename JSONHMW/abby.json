@@ -1,0 +1,15 @@
+
+	{
+	"name":["Abby", "Wang"],
+
+	"home":{"latitude":"", "longetitude":},
+
+	"url":{"https://wangz931.github.io"},
+
+	"favorites":{
+	"color":"f2b11c",
+     "book":{"title":"the thorn birds" ,"author":"Colleen McCullough"},
+	"tool":{"photoshop"}
+	,"temperature":21
+    }
+	}

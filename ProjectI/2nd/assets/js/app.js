@@ -1,3 +1,8 @@
+
+
+
+
+
 $('.one').hover(
 	function() {
 		$('.onetext.h1').removeClass('hide');
