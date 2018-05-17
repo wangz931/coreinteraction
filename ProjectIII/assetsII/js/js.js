@@ -28,11 +28,11 @@ $('.h6').hover(
             
 });
 
-$('.h8').hover(
+$('.h16').hover(
 	function() {
-		$('.m2').removeClass('h5');
+		$('.m8').removeClass('h17');
 	}, function() {
-		$('.m2').addClass('h5');
+		$('.m8').addClass('h17');
             
 });
 
@@ -40,7 +40,7 @@ $('.h8').hover(
 
 
 
-$('.h10').hover(
+$('.h8').hover(
 	function() {
 		$('.m4').removeClass('h9');
 	}, function() {
@@ -48,7 +48,7 @@ $('.h10').hover(
             
 });
 
-$('.h12').hover(
+$('.h10').hover(
 	function() {
 		$('.m5').removeClass('h11');
 	}, function() {
@@ -60,7 +60,7 @@ $('.h12').hover(
 
 
 
-$('.h16').hover(
+$('.h12').hover(
 	function() {
 		$('.m6').removeClass('h13');
 	}, function() {
@@ -71,17 +71,29 @@ $('.h16').hover(
 
 
 
+
+
+
+
 $('.h20').hover(
 	function() {
-		$('.m7').removeClass('h15');
+		$('.m10').removeClass('h21');
 	}, function() {
-		$('.m7').addClass('h15');
+		$('.m10').addClass('h21');
             
 });
 
 
-
 $('.h22').hover(
+	function() {
+		$('.m11').removeClass('h23');
+	}, function() {
+		$('.m11').addClass('h23');
+            
+});
+
+
+$('.h24').hover(
 	function() {
 		$('.m12').removeClass('h25');
 	}, function() {
@@ -89,8 +101,7 @@ $('.h22').hover(
             
 });
 
-
-$('.h24').hover(
+$('.h26').hover(
 	function() {
 		$('.m13').removeClass('h27');
 	}, function() {
@@ -98,8 +109,7 @@ $('.h24').hover(
             
 });
 
-
-$('.h26').hover(
+$('.h28').hover(
 	function() {
 		$('.m14').removeClass('h29');
 	}, function() {
@@ -107,13 +117,6 @@ $('.h26').hover(
             
 });
 
-$('.h28').hover(
-	function() {
-		$('.m16').removeClass('h33');
-	}, function() {
-		$('.m16').addClass('h33');
-            
-});
 
 $('.h30').hover(
 	function() {
@@ -122,4 +125,3 @@ $('.h30').hover(
 		$('.m15').addClass('h31');
             
 });
-

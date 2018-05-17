@@ -67,31 +67,19 @@ html,body
 {
 	width: 3.7%;
 	top:248px;
-	right:724px;
+	right:720px;
 	position: absolute;
 }
 
-.m2{
-    width: 5%;
-    position: absolute;
-    right:647px;
-    top:215px;	
-}
 
-.m3
-{
-	width: 4%;
-	position: absolute;
-	top:245px;
-	right:577px;
-	
-}
+
+
 
 .m4{
 	width: 3%;
 	position: absolute;
 	top:259px;
-	right:674px;
+	right:668px;
 	
 }
 
@@ -99,7 +87,7 @@ html,body
 	width: 6%;
 	position: absolute;
 	top:215px;
-	right: 585px;
+	right: 578px;
 }
 
 .m6{
@@ -150,7 +138,7 @@ html,body
 	height: 104px;
 	position: absolute;
 	top:162px;
-	right:237px;
+	right:232px;
 	background-color: #40E0D0;
 }
 

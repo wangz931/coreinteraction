@@ -67,16 +67,16 @@ html,body
 
 .m1
 {
-	width: 4%;
+	width: 3%;
 	top:247px;
-	right:714px;
+	right:700px;
 	position: absolute;
 }
 
 .m2{
     width: 3%;
     position: absolute;
-    right:665px;
+    right:650px;
     top:250px;	
 }
 
@@ -85,7 +85,7 @@ html,body
 	width: 6%;
 	position: absolute;
 	top:210px;
-	right:57px;
+	right:570px;
 	
 }
 
@@ -100,7 +100,7 @@ html,body
 	width: 8%;
 	position:absolute;
 	top:160px;
-	right:750px;
+	right:738px;
 
 }
 .m7{
@@ -127,21 +127,21 @@ html,body
 	
 	position: absolute;
 	top:212px;
-	right:334px;
+	right:328px;
 	}
 
 .m14{
 	width: 8%;
 	position: absolute;
-	top:162px;
-	right:232px;
+	top:160px;
+	right:230px;
 }
 
 .m15{
 	width: 4%;
 	position: absolute;
-	top:240px;
-	right:115px;
+	top:230px;
+	right:105px;
 }
 
 
@@ -173,7 +173,7 @@ html,body
     100%   {background:red;}
     }
 
-}
+
 .one{
          width: 3%;
          display: none;
@@ -212,12 +212,12 @@ html,body
 
 
 .door{
-			animation:my 3s;
-    		-moz-animation:my 3s infinite; 
-    		-webkit-animation:my 3s infinite;
+			animation:myi 3s;
+    		-moz-animation:myi 3s infinite; 
+    		-webkit-animation:myi 3s infinite;
 	    }
 	    
-        @-webkit-keyframes my 
+        @-webkit-keyframes myi 
     {
    0%   {background:white;}
     50%  {background:red;}
@@ -225,7 +225,7 @@ html,body
     100%   {background:red;}
     }
 
-}
+
 
 
 
